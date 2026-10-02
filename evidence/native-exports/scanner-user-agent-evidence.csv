@@ -1,0 +1,6 @@
+"user_agent",count
+""";print(md5(acunetix_wvs_security_test));$a=""",1
+"${@print(md5(acunetix_wvs_security_test))}",1
+"${@print(md5(acunetix_wvs_security_test))}\",1
+"';print(md5(acunetix_wvs_security_test));$a='",1
+";print(md5(acunetix_wvs_security_test));",1

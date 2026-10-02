@@ -1,0 +1,21 @@
+index=botsv1 earliest=0 latest=now sourcetype=stream:http
+| spath path=src_ip output=source_address
+| spath path=dest_ip output=destination_address
+| spath path=http_method output=method
+| spath path=uri_path output=request_path
+| spath path=status output=response_status
+| spath path=src_content output=form_data
+| spath path=dest_headers output=response_headers
+| spath path=dest_content output=response_body
+| search source_address="23.22.63.114" destination_address="192.168.250.70" method="POST" request_path="/joomla/administrator/index.php"
+| rex field=form_data "(?:^|&)username=(?<username>[^&]*)"
+| rex field=form_data "(?:^|&)passwd=(?<password_candidate>[^&]*)"
+| where username="admin" AND isnotnull(password_candidate)
+| sort 0 _time
+| streamstats count as candidate_position
+| rex field=response_headers "(?im)^Location:\s*(?<redirect_target>[^\r\n]+)"
+| eval response_characters=len(response_body), response_body_sha256=sha256(response_body), set_cookie_header=case(isnull(response_headers),"not captured",match(response_headers,"(?im)^Set-Cookie:"),"present",true(),"absent")
+| fillnull value="not captured" response_status redirect_target response_characters response_body_sha256
+| eventstats count as response_group_records by response_status redirect_target response_characters response_body_sha256 set_cookie_header
+| where candidate_position=319 OR candidate_position=367 OR response_status="not captured"
+| table _time candidate_position response_status redirect_target response_characters response_body_sha256 set_cookie_header response_group_records

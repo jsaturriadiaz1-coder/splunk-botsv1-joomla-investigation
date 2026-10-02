@@ -1,0 +1,51 @@
+"signature_name",count
+"ET WEB_SERVER Script tag in URI, Possible Cross Site Scripting Attempt",103
+"SURICATA HTTP Host header invalid",49
+"ET WEB_SERVER Onmouseover= in URI - Likely Cross Site Scripting Attempt",48
+"ET SCAN Acunetix Version 6 (Free Edition) Scan Detected",45
+"ET WEB_SERVER Possible XXE SYSTEM ENTITY in POST BODY.",41
+"ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM",33
+"ET WEB_SERVER SQL Injection Select Sleep Time Delay",32
+"ET WEB_SERVER Possible CVE-2014-6271 Attempt",18
+"ET WEB_SERVER Possible CVE-2014-6271 Attempt in Headers",18
+"ET WEB_SERVER PHP tags in HTTP POST",13
+"GPL WEB_SERVER global.asa access",12
+"ET WEB_SERVER /system32/ in Uri - Possible Protected Directory Access Attempt",10
+"ET WEB_SERVER allow_url_include PHP config option in uri",10
+"ET WEB_SERVER auto_prepend_file PHP config option in uri",10
+"ET WEB_SERVER cmd.exe In URI - Possible Command Execution Attempt",10
+"ET WEB_SERVER disable_functions PHP config option in uri",9
+"ET WEB_SERVER open_basedir PHP config option in uri",9
+"ET WEB_SERVER safe_mode PHP config option in uri",9
+"ET WEB_SERVER suhosin.simulation PHP config option in uri",9
+"GPL EXPLOIT unicode directory traversal attempt",5
+"GPL WEB_SERVER .htaccess access",5
+"ET SCAN Acunetix Accept HTTP Header detected scan in progress",3
+"ET SCAN DEBUG Method Request with Command",3
+"GPL WEB_SERVER Tomcat directory traversal attempt",3
+"GPL WEB_SERVER Tomcat null byte directory listing attempt",3
+"ET WEB_SERVER WEB-PHP phpinfo access",2
+"GPL WEB_SERVER printenv access",2
+"SURICATA HTTP Host header ambiguous",2
+"ET POLICY Incoming Basic Auth Base64 HTTP Password detected unencrypted",1
+"ET POLICY Proxy TRACE Request - inbound",1
+"ET SCAN Apache mod_proxy Reverse Proxy Exposure 1",1
+"ET SCAN SFTP/FTP Password Exposure via sftp-config.json",1
+"ET WEB_SERVER ColdFusion administrator access",1
+"ET WEB_SERVER IIS 8.3 Filename With Wildcard (Possible File/Dir Bruteforce)",1
+"ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt",1
+"ET WEB_SERVER Oracle Reports OS Command Injection Attempt",1
+"ET WEB_SERVER PHP.//Input in HTTP POST",1
+"ET WEB_SERVER Possible IIS Integer Overflow DoS (CVE-2015-1635)",1
+"ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access",1
+"ET WEB_SERVER Possible Oracle Reports Forms RCE CVE-2012-3152",1
+"ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT",1
+"ET WEB_SERVER Possible SQLi Attempt in User Agent (Inbound)",1
+"GPL EXPLOIT .cnf access",1
+"GPL WEB_SERVER .htpasswd access",1
+"GPL WEB_SERVER /~root access",1
+"GPL WEB_SERVER TRACE attempt",1
+"GPL WEB_SERVER authors.pwd access",1
+"GPL WEB_SERVER iisadmin access",1
+"GPL WEB_SERVER service.cnf access",1
+"SURICATA HTTP invalid content length field in request",1
