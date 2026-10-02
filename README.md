@@ -37,5 +37,10 @@ The incident occurred on August 10, 2016. Report and timed CSV exports use UTC. 
 
 The dataset is credited to Splunk and the BOTS authors and is not redistributed here.
 
+## Tools and data sources
 
-
+- **Splunk Enterprise:** I used SPL to search events, inspect HTTP activity, and test detection queries.
+- **Suricata alert logs:** I compared existing IDS alerts with HTTP activity.
+- **BOTS v1 dataset:** I used Splunk’s published training dataset as the evidence source.
+- **GitHub Desktop and GitHub:** I used these to manage and publish the project.
+- **AI assistant:** I used AI to help draft Splunk searches and organize the write-up. I reran the searches, inspected the events, and verified the findings against exported evidence.
